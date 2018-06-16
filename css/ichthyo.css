@@ -616,6 +616,15 @@ header.masthead .intro-text .intro-heading {
   background: black;
 }
 
+
+.bg-bones h2.section-heading {
+  color: #5a5b60;
+}
+
+.bg-bones p {
+  color: #a3a5a8;
+}
+
 .bone-models {
   width: 100%;
   min-width: 500px;
@@ -645,6 +654,16 @@ header.masthead .intro-text .intro-heading {
   -ms-transform: translate(-50%,-50%);
 }
 
+
+.progress {
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 #bone-model {
   width: 100%;
@@ -686,12 +705,22 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-
 #map {
   width: 100%;
   height: 400px;
   margin-bottom: 30px;
 }
+
+.contact-data {
+  padding-top: 50px;
+  border: 1px solid #f1f1f1;
+  height: 400px;
+}
+
+.contact-data h4 {
+  padding: 10px 20px;
+}
+
 
 footer {
   padding: 25px 0;
